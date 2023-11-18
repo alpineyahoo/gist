@@ -7,15 +7,36 @@ foobar
 ## Section 2
 lorem ipsum
 
+***
+
 ### List
 - Item 1
 - Item 2
 
-[](https://qiita.com)
+| blue | green | red |
+|:-|:-:|-:|
+| ocean | grass | blood |
+
+https://qiita.com
+
 [Qiita](https://qiita.com)
 
 You run `cowsay` when bored.
 
-```bash
+```bash:sample.sh
 echo "Hello, World"
 ```
+
+:::note info
+This is info.
+:::
+
+:::note warn
+This is a warning.
+:::
+
+:::note alert
+This is an alert.
+:::
+
+Get Things **Done** 
