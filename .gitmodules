@@ -1,3 +1,6 @@
 [submodule "mod/test/test.md"]
 	path = mod/test/test.md
 	url = https://gist.github.com/alpineyahoo/3210132a3eaf3984601d17439265b387
+[submodule "mod/github-pages-spec.md"]
+	path = mod/github-pages-spec.md
+	url = https://gist.github.com/alpineyahoo/4a56332b16c4cc36c1c82b534b0cb22c
