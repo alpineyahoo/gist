@@ -1,12 +1,18 @@
 # API Usage Ideas
 
-###[numbersapi.com](https://numbersapi.com)
+### [numbersapi.com](http://numbersapi.com)
 
 ```sh
-$ curl foobar
+$ curl http://numbersapi.com/2023 # same as curl http://numbersapi.com/2023/trivia
+$ curl http://numbersapi.com/13/math
+$ curl http://numbersapi.com/9/11/date
+$ curl http://numbersapi.com/53/math?write # document.write("53 is ...");
 ```
 
-- [stdout](foobar)
+- [stdout1](http://numbersapi.com/2023)
+- [stdout2](http://numbersapi.com/13/math)
+- [stdout3](http://numbersapi.com/9/11/date)
+- [stdout4](http://numbersapi.com/53/math?write)
 
 ### [loripsum.net](https://loripsum.net)
 
