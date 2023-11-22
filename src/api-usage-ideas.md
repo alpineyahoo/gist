@@ -1,5 +1,13 @@
 # API Usage Ideas
 
+###[numbersapi.com](https://numbersapi.com)
+
+```sh
+$ curl foobar
+```
+
+- [stdout](foobar)
+
 ### [loripsum.net](https://loripsum.net)
 
 ```sh
