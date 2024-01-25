@@ -1,6 +1,6 @@
 # `Julia` の開発環境作成手順のメモ
 ## 格納場所(Julia関係各種ファイル・ディレクトリのルートディレクトリ)
-デフォルト: `~/.julia`  
+デフォルト: `~/.julia`<br>
 環境変数`JULIA_DEPOT_PATH`がある場合はその配下
 
 ## グローバルな使用
@@ -21,8 +21,8 @@ julia -q --project=@main
 - --project=@main
 - --project=$JULIA_DEPOT_PATH/environments/main
 
-REPLではPkgモードに入った後`activate --shared main`をするのと同じ。  
-例えば`alias julia-main="julia -q --project=@main"`を`~/.zshrc`に登録すればいいのでは。  
+REPLではPkgモードに入った後`activate --shared main`をするのと同じ。<br>
+例えば`alias julia-main="julia -q --project=@main"`を`~/.zshrc`に登録すればいいのでは。<br>
 補足: `direnv`ユーザーなら`~/.envrc`に`export JULIA_PROJECT=@main`と追記すれば`--project=@main`のオプションは要らない。
 
 ## ローカルプロジェクトの場合
