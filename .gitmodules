@@ -4,3 +4,6 @@
 [submodule "mod/github-pages-spec.md"]
 	path = mod/github-pages-spec.md
 	url = https://gist.github.com/alpineyahoo/4a56332b16c4cc36c1c82b534b0cb22c
+[submodule "mod/github-starred-repos.md"]
+	path = mod/github-starred-repos.md
+	url = https://gist.github.com/alpineyahoo/7bd0b9a41b6a6ea319d58a2bfc25ae26
