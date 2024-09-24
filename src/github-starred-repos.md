@@ -30,6 +30,7 @@ tail -n 3 |
 head -n 1 |
 awk '{printf("%d\n", $0/100 + 1)}')
 
+echo "GitHub starred repos info is being exported......"
 echo '[]' > "$_json"
 (for index in $(seq 1 $requests); do eval "request"; done) |
 tqdm --total $requests --null
