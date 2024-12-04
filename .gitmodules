@@ -7,3 +7,6 @@
 [submodule "mod/github-starred-repos.md"]
 	path = mod/github-starred-repos.md
 	url = https://gist.github.com/alpineyahoo/7bd0b9a41b6a6ea319d58a2bfc25ae26
+[submodule "mod/killeave.sh"]
+	path = mod/killeave.sh
+	url = https://gist.github.com/alpineyahoo/3ac1a4036281923a34988cd2dc07b142
